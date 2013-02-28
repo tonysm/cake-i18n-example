@@ -41,8 +41,8 @@
 			<nav>
 				<h4><?php echo __('Choose your language below'); ?></h4>
 				<ul>
-					<li><?php echo $this->Html->link(__('Portuguese/Brazil'), array('controller' => 'usuarios', 'action' => 'language', 'por_BR')); ?></li>
-					<li><?php echo $this->Html->link(__('English/USA'), array('controller' => 'usuarios', 'action' => 'language', 'eng_US')); ?></li>
+					<li><?php echo $this->Html->link(__('Portuguese/Brazil'), array('controller' => 'usuarios', 'action' => 'language', 'por')); ?></li>
+					<li><?php echo $this->Html->link(__('English/USA'), array('controller' => 'usuarios', 'action' => 'language', 'eng')); ?></li>
 				</ul>
 			</nav>
 		</div>

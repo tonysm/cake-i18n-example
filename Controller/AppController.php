@@ -42,7 +42,7 @@ class AppController extends Controller {
  * linguagem padrão da aplicação
  * @var string
  */
-	public $defaultLanguage = "eng_US";
+	public $defaultLanguage = "eng";
 /**
  * altera a linguagem padrão da aplicação. Se a mesma existir na Session, utiliza ela.
  * Caso contrário, utiliza a linguagem padrão 'eng_US'
