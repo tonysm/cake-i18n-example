@@ -22,17 +22,17 @@ class Usuario extends AppModel {
 		'nome' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
-				'message' => 'Campo obrigatório'
+				'message' => 'Required'
 			)
 		),
 		'email' => array(
 			'email' => array(
 				'rule' => array('email', true),
-				'message' => 'E-mail inválido'
+				'message' => 'Invalid e-mail'
 			),
 			'notempty' => array(
 				'rule' => array('notempty'),
-				'message' => 'Campo obrigatório'
+				'message' => 'Required'
 			)
 		)
 	);
