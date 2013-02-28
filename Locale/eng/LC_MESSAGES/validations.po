@@ -1,0 +1,25 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-02-28 20:37-0300\n"
+"PO-Revision-Date: 2013-02-28 20:50-0300\n"
+"Last-Translator: Luiz Antonio S Messias <tonyzrp@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Model/Usuario.php:validation
+#: for field nome;validation email
+msgid "Required"
+msgstr ""
+
+#: Model/Usuario.php:validation
+#: for field email
+msgid "Invalid e-mail"
+msgstr ""
+

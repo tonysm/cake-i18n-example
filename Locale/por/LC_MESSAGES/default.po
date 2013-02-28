@@ -1,0 +1,148 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-02-28 20:37-0300\n"
+"PO-Revision-Date: 2013-02-28 20:48-0300\n"
+"Last-Translator: Luiz Antonio S Messias <tonyzrp@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/UsuariosController.php:37;69;95
+msgid "Invalid usuario"
+msgstr "Usuário inválido"
+
+#: Controller/UsuariosController.php:52;73
+msgid "The usuario has been saved"
+msgstr "Usuário adicionado com sucesso"
+
+#: Controller/UsuariosController.php:55;76
+msgid "The usuario could not be saved. Please, try again."
+msgstr "Usuário não pôde ser adicionado. Por favor, tente novamente."
+
+#: Controller/UsuariosController.php:99
+msgid "Usuario deleted"
+msgstr "Usuário deletado"
+
+#: Controller/UsuariosController.php:102
+msgid "Usuario was not deleted"
+msgstr "Usuário não pôde ser deletado"
+
+#: Controller/UsuariosController.php:115
+msgid "Your language has been changed"
+msgstr "Seu idioma foi modificado"
+
+#: View/Layouts/default.ctp:24
+#: View/Layouts/error.ctp:24
+msgid "CakePHP: the rapid development php framework:"
+msgstr "CakePHP: o framework para desenvolvimento ágil"
+
+#: View/Layouts/default.ctp:40;57
+#: View/Layouts/error.ctp:40;50
+msgid "CakePHP: the rapid development php framework"
+msgstr "CakePHP: o framework para desenvolvimento ágil"
+
+#: View/Layouts/default.ctp:42
+msgid "Choose your language below"
+msgstr ""
+
+#: View/Layouts/default.ctp:44
+msgid "Portuguese/Brazil"
+msgstr "Português/Brasil"
+
+#: View/Layouts/default.ctp:45
+msgid "English/USA"
+msgstr "English/USA"
+
+#: View/Usuarios/add.ctp:4
+msgid "Add Usuario"
+msgstr "Adicionar Usuário"
+
+#: View/Usuarios/add.ctp:10
+#: View/Usuarios/edit.ctp:11
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/Usuarios/add.ctp:13
+#: View/Usuarios/edit.ctp:14
+#: View/Usuarios/index.ctp:8;38
+#: View/Usuarios/view.ctp:22
+msgid "Actions"
+msgstr "Ações"
+
+#: View/Usuarios/add.ctp:16
+#: View/Usuarios/edit.ctp:18
+#: View/Usuarios/view.ctp:26
+msgid "List Usuarios"
+msgstr "Listar Usuários"
+
+#: View/Usuarios/edit.ctp:4
+#: View/Usuarios/view.ctp:24
+msgid "Edit Usuario"
+msgstr "Editar Usuários"
+
+#: View/Usuarios/edit.ctp:17
+#: View/Usuarios/index.ctp:18
+msgid "Delete"
+msgstr "Deletar"
+
+#: View/Usuarios/edit.ctp:17
+#: View/Usuarios/index.ctp:18
+#: View/Usuarios/view.ctp:25
+msgid "Are you sure you want to delete # %s?"
+msgstr "Tem certeza que deseja deletar # %s?"
+
+#: View/Usuarios/index.ctp:2
+msgid "Usuarios"
+msgstr "Usuários"
+
+#: View/Usuarios/index.ctp:16
+msgid "View"
+msgstr "Visualizar"
+
+#: View/Usuarios/index.ctp:17
+msgid "Edit"
+msgstr "Editar"
+
+#: View/Usuarios/index.ctp:26
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Página {:page} de {:pages}, exibindo {:current} registros de um total de {:count}, de {:start} até {:end}"
+
+#: View/Usuarios/index.ctp:31
+msgid "previous"
+msgstr "anterior"
+
+#: View/Usuarios/index.ctp:33
+msgid "next"
+msgstr "próxima"
+
+#: View/Usuarios/index.ctp:40
+#: View/Usuarios/view.ctp:27
+msgid "New Usuario"
+msgstr "Novo Usuário"
+
+#: View/Usuarios/view.ctp:2
+msgid "Usuario"
+msgstr "Usuário"
+
+#: View/Usuarios/view.ctp:4
+msgid "Id"
+msgstr "Id"
+
+#: View/Usuarios/view.ctp:9
+msgid "Nome"
+msgstr "Nome"
+
+#: View/Usuarios/view.ctp:14
+msgid "Email"
+msgstr "E-mail"
+
+#: View/Usuarios/view.ctp:25
+msgid "Delete Usuario"
+msgstr "Deletar Usuário"
+
