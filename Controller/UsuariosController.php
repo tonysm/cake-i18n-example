@@ -102,4 +102,17 @@ class UsuariosController extends AppController {
 		$this->Session->setFlash(__('Usuario was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+/**
+ * language method
+ * @param string $lang = 'por_BR'
+ * @return void
+ */
+	public function language($lang = 'por_BR')
+	{
+		Configure::write('Config.language', $lang);
+		$this->Session->write('Config.language', $lang);
+
+		$this->Session->setFlash(__('Your language has been changed'));
+		$this->redirect(array('controller' => 'usuarios', 'action' => 'index'));
+	}
 }
