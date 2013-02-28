@@ -38,4 +38,25 @@ class AppController extends Controller {
  * @var array
  */
 	public $components = array('Session');
+/**
+ * linguagem padrão da aplicação
+ * @var string
+ */
+	public $defaultLanguage = "eng_US";
+/**
+ * altera a linguagem padrão da aplicação. Se a mesma existir na Session, utiliza ela.
+ * Caso contrário, utiliza a linguagem padrão 'eng_US'
+ */
+	public function beforeFilter()
+	{
+		$lang = $this->Session->read('Config.language');
+
+		if(!$lang) {
+			$lang = $this->defaultLanguage;
+		}
+
+		Configure::write('Config.language', $lang);
+		
+		return parent::beforeFilter();
+	}
 }
