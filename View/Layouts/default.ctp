@@ -27,7 +27,7 @@
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css(['cake.generic','app']);
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -38,6 +38,13 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link(__('CakePHP: the rapid development php framework'), 'http://cakephp.org'); ?></h1>
+			<nav>
+				<h4><?php echo __('Choose your language below'); ?></h4>
+				<ul>
+					<li><?php echo $this->Html->link(__('Portuguese/Brazil'), array('controller' => 'usuarios', 'action' => 'language', 'por_BR')); ?></li>
+					<li><?php echo $this->Html->link(__('English/USA'), array('controller' => 'usuarios', 'action' => 'language', 'eng_US')); ?></li>
+				</ul>
+			</nav>
 		</div>
 		<div id="content">
 

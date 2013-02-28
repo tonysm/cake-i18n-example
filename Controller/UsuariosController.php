@@ -16,13 +16,6 @@ class UsuariosController extends AppController {
 	public $helpers = array('Session', 'Html', 'Form');
 
 /**
- * Components
- *
- * @var array
- */
-	public $components = array('Session');
-
-/**
  * index method
  *
  * @return void

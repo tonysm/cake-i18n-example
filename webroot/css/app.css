@@ -1,0 +1,16 @@
+/* header */
+#header nav h4 {
+	color: #ededed;
+	font-weight: bold;
+}
+
+#header li {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+#header li a {
+	color: white;
+}
+
+/* /header */
