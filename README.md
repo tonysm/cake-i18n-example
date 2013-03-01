@@ -12,7 +12,7 @@ Para gerar os arquivos, utilizamos o comando:
 
 Ele vai gerar os arquivos _.pot_ da aplicação.
 
-<strong>Atenção:</strong> Para gerar um arquivo separado para as validações do Model, pasta colocar o nome do arquivo no atributo <em>$validationDomain</em> do Model ou no AppModel.
+<strong>Atenção:</strong> Para gerar um arquivo separado para as validações do Model, basta colocar o nome do arquivo no atributo <em>$validationDomain</em> do Model ou no AppModel.
 
 ## Traduzindo
 
